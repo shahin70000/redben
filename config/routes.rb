@@ -7,7 +7,7 @@ Redben::Application.routes.draw do
 
   get "users/update"
 
-  devise_for :accounts
+  devise_for :accounts, :controllers => { :sessions => "sessions", :registrations => "registrations" }
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

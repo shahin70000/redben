@@ -5,7 +5,6 @@
 
   <%= f.error_notification %>
 
-  <%= display_base_errors resource %>
     <%= f.fields_for :user do |user_form| %>
         <%= user_form.input :name, label: "Username", :required => true %>
     <% end %>
