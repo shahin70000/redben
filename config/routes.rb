@@ -1,12 +1,5 @@
 Redben::Application.routes.draw do
-  get "users/index"
-
-  get "users/show"
-
-  get "users/edit"
-
-  get "users/update"
-
+  resources :users
   devise_for :accounts
 
   # The priority is based upon order of creation:

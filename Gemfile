@@ -5,6 +5,8 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'simple_form'
+gem 'country_select'
 gem 'devise'
 gem "heroku"
 gem 'thin'
